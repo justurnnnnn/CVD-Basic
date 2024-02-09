@@ -198,3 +198,138 @@ line-height:1;
   justify-content:space-between;
 }
 
+.srvc{
+background:var(--dark);
+padding:5rem 0;
+}
+.srvc{
+  background:var(--dark);
+  padding:5rem 0;
+}
+.srvc__wrapper{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+grid-gap:5rem;
+text-align:center;
+}
+.srvc__item i{
+  font-size:5rem;
+  color:var(--primary);
+  margin-bottom:2rem;
+}
+.srvc__item h4{
+  font-weight:600;
+  color:var(--primary);
+  margin:2rem 0;
+}
+.srvc__item p{
+  text-align:justify;
+  margin-bottom:3rem;
+  margin:2rem 0;
+  color:var(--light);
+}
+
+/* ABT */
+.abt{
+  padding:5rem 0;
+  background:var(--light);
+}
+.abt__wrapper{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.abt__text{
+  max-width:60rem;
+}
+.abt__text h4{
+  color:var(--primary);
+  font-weight:600;
+  font-size:3rem;
+}
+.abt__text p{
+  margin:2rem 0;
+  text-align:justify;
+}
+
+/* REPEATABLE PATTERNS */
+:root{
+  --dark:#2b2b2b;
+  --light:#ffffff;
+  --primary:#ffa700;
+}
+.btn{
+display:inline-block;
+padding:1rem 1.5rem;
+border-radius:5rem;
+border:1px solid transparent;
+text-align:center;
+}
+.btn.bg--primary{
+  background:var(--primary);
+  color:#ffffff;
+}
+.btn.bg--primary:hover{
+  background:#2b2b2b;
+  BORDER:1px solid #ffffff;
+  scale:1.1;
+  transition:.5s ease;
+
+}
+/* ABOUT ME */
+/* .ab.abt__wrapper h3{
+display:flex;
+font-size:5rem;
+text-align: justify;
+}
+.abt__wrapper h3{
+  font-size:5rem;
+  color:#ffa700
+}
+.abt .abt__abt p{
+margin:5rem;
+font: size 1rem;
+}
+.abt .abt__wrapper{
+  display:flex;
+  font-weight:100;
+padding: 10rem;
+} */
+
+/* CNT */
+.cnt{
+  background:var(--primary);
+  padding:5rem 0;
+}
+.cnt__wrapper{
+  text-align:center;
+}
+.cnt h2{
+  font-size:4rem;
+  font-weight:600;
+}
+.cnt p{
+  margin-bottom:3rem;
+}
+
+.btn.bg--dark{
+  background:var(--dark);
+  color:#ffffff;
+}
+.btn.bg--dark:hover{
+  background:transparent;
+  border:1px solid var(--dark);
+  color:var(--dark);
+  scale:1.1;
+  transition:.5s ease;
+}
+/* FOOTER */
+.footer{
+  background:var(--dark);
+  padding:5rem 0rem;
+}
+
+.footer .footer__wrapper{
+  color:grey;
+  justify-content:space-between;
+}
