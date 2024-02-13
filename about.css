@@ -1,0 +1,102 @@
+/* ABOUT */
+.about{
+    padding:5rem 0;
+    background:#ffffff;
+  }
+  .about__text{
+    max-width:35rem;
+  }
+  .about .about__text p{
+    text-align:justify;
+    margin:2rem 0 0 0;
+    padding:2rem 0 0 0;
+  }
+  .about .about__text h1{
+    font-size:6.5rem;
+    color:#ffa700;
+    font-weight:800;
+    line-height:1;
+  }
+  .about .about__text h5{
+    font-size:1.3rem;
+  }
+  .about .about__text p{
+    margin:5rem 0;
+  }
+  .about .about__wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction:row-reverse;
+  }
+  .about .about__text ul li a{
+    color:var(--primary);
+    font-size:2rem;
+    padding:5rem 2rem 0 0;
+  }
+  .about .about__text ul{
+    display:flex;
+    align-items:center;
+  }
+  @media screen and (max-width:486px){
+    .about__wrapper{
+      display:flex;
+      flex-direction:column-reverse;
+  
+    }
+    .about img{
+      width:25rem;
+    
+    }
+    .about__text h1{
+      font-size:3rem;
+      color:#ffa700;
+      font-weight:800;
+      line-height:1;
+  
+    }
+    .about__text{
+      max-width:fit-content;
+      text-align:center;
+    }
+  }
+  /* MRP */
+  .mrp{
+    padding:5rem 0;
+   background:#2b2b2b;
+  }
+  .mrp__title h2{
+    font-size:3rem;
+    color:var(--primary);
+    font-weight:600;
+  }
+  .mrp__title p{
+    color:var(--light);
+  }
+  .mrp__card{
+    background:var(--light);
+    border-radius:3rem;
+    transition:.5s ease;
+  }
+  .mrp__wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:4rem;
+  }
+
+  .mrp__text{
+    padding:1rem;
+  }
+
+  .mrp__text{
+    color:var(--primary);
+    font-weight:600;
+  }
+  .mrp__card:hover{
+    scale: 1.1rem;
+  }
+
+
+
+
+  
