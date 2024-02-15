@@ -299,7 +299,8 @@ line-height:1;
 }
 
 .srvc__wrapper{
-  display:flex
+ display:flex;
+ flex-direction:row-reverse;
 
 }
 
